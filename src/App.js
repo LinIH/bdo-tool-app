@@ -6,8 +6,20 @@ import Product from './Product';
 import ProductDetail from './ProductDetail';
 import Login from './Login';
 import Cart from './Cart';
+import { useState } from 'react';
 
 function App() {
+  const [cart, setCart] = useState([]);
+
+  function addToCart(product){
+    console.log(product);
+    setCart([...cart, product]);
+  }
+
+  function test(){
+    console.log(cart);
+  }
+
   return (
     <>
     <BrowserRouter>
@@ -22,9 +34,9 @@ function App() {
         <Route path='/' element={<Home />} />
         {/*<Route path='/cal' element={<Cal />} />*/}
         <Route path='product' element={<Product />} />
-        <Route path='product/:id' element={<ProductDetail />} />
+        <Route path='product/:id' element={<ProductDetail addToCart={addToCart} />} />
         <Route path='login' element={<Login />} />
-        <Route path='cart' element={<Cart />}></Route>
+        <Route path='cart' element={<Cart cart={cart}/>}></Route>
       </Routes>
     </BrowserRouter>
     </>
