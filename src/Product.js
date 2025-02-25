@@ -14,7 +14,7 @@ function Product(){
                 {product_list.map((product, index) => (
                     <li key={index} style={{display: 'flex', flexDirection: 'column'}}>
                         <Link to={'/product/' + product.id} style={{display: 'flex', flexDirection: 'column'}} >
-                            <img src={'./img' + product.link + '.png'} style={{width: '10em'}}/>
+                            <img src={process.env.REACT_APP_PUBLIC_URL + '/img' + product.link + '.png'} style={{width: '10em'}}/>
                             <label>{product.name}</label>
                         </Link>
                     </li>
