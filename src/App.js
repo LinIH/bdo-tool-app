@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/bdo-tool-app'>
       <div><Link to='/login'>登入</Link></div>
       <nav className='leftside-nav'>
         <Link to='/'>Home</Link>
