@@ -14,7 +14,7 @@ function ProductDetail({addToCart}){
     return(
         <div>
             <h2>產品編號{id} &nbsp;&nbsp;&nbsp;{product.name}</h2>
-            <img src={'bdo-tool-app/img' + product.link + '.png'} style={{width: '20em'}}/>
+            <img src={'./img' + product.link + '.png'} style={{width: '20em'}}/>
             <button onClick={() => addToCart(product)}>加到購物車</button>
         </div>
     );
