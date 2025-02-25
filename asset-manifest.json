@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2839a3e.css",
-    "main.js": "/static/js/main.9f1b69a2.js",
-    "index.html": "/index.html",
-    "main.b2839a3e.css.map": "/static/css/main.b2839a3e.css.map",
-    "main.9f1b69a2.js.map": "/static/js/main.9f1b69a2.js.map"
+    "main.css": "/bdo-tool-app/static/css/main.b2839a3e.css",
+    "main.js": "/bdo-tool-app/static/js/main.b81ac46f.js",
+    "index.html": "/bdo-tool-app/index.html",
+    "main.b2839a3e.css.map": "/bdo-tool-app/static/css/main.b2839a3e.css.map",
+    "main.b81ac46f.js.map": "/bdo-tool-app/static/js/main.b81ac46f.js.map"
   },
   "entrypoints": [
     "static/css/main.b2839a3e.css",
-    "static/js/main.9f1b69a2.js"
+    "static/js/main.b81ac46f.js"
   ]
 }
