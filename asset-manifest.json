@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bdo-tool-app/static/css/main.b2839a3e.css",
+    "main.js": "/bdo-tool-app/static/js/main.9f1b69a2.js",
+    "index.html": "/bdo-tool-app/index.html",
+    "main.b2839a3e.css.map": "/bdo-tool-app/static/css/main.b2839a3e.css.map",
+    "main.9f1b69a2.js.map": "/bdo-tool-app/static/js/main.9f1b69a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2839a3e.css",
+    "static/js/main.9f1b69a2.js"
+  ]
+}
